@@ -1,0 +1,64 @@
+
+.container-fluid {
+    background-color: brown;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
+}
+.nav-item{
+    font-weight: bold;
+}
+.cards{
+    margin-left: 20px;
+    display: grid;
+    text-align: center;
+    grid-template-columns: 25% 25% 25% 25%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    /* background-color: azure; */
+    
+}
+.icons{
+    margin-top: 5px;
+    background-color: brown;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 10% 10% 10%;
+    justify-content: center;
+     
+}
+.card-img-top{
+    transform: scale(100%);
+    transition-duration: 2s;
+    
+}
+.card-img-top:hover {
+    transform: scale(110%);
+}
+
+/* .card-img-top{ 
+    animation-name: modi;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes modi {
+   0%{transform: initial;}
+   100%{transform: scale(1.1);}
+}
+*/
+
+
+.card-text{
+    height: 200px;
+}
+.section1{
+    padding: 10px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.op{
+    font-size: xx-large;
+    font-weight: bolder;
+    color: brown;
+}
